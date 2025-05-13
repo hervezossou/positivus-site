@@ -12,8 +12,8 @@ const baseStyle = "w-[119px] h-[51px] flex items-center justify-center gap-[10px
 
 const variantStyle: Record<Variant, string> = {
     dark: "bg-dark text-white",
-    light: "bg-white text-slate-800 hover:scale-105 ease-in-out duration-200",
-    lime: "bg-lime text-slate-800 hover:scale-105 ease-in-out duration-200",
+    light: "bg-white text-slate-800",
+    lime: "bg-lime text-slate-800",
 }
 
 export const Heading = ({variant = "dark", label}: HeadingProps) => {
