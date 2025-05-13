@@ -1,6 +1,7 @@
 "use client"
 import { Typography } from "./components/atoms/Typography";
 import { Button } from "./components/atoms/Button";
+import { Heading } from "./components/atoms/Heading";
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
           Découvrez une solution rapide, moderne et adaptée à vos besoins.
         </Typography>
         <Button variant="positive" label="Book a consultation" />
+        <Heading variant="lime" label="Team" />
     </main>
   );
 }
