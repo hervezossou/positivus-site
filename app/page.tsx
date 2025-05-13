@@ -15,7 +15,7 @@ export default function Page() {
         </Typography>
         <Button variant="positive" label="Book a consultation" />
         <Heading variant="lime" label="Team" />
-        <TextLink variant="lime" label="Lean more" />
+        <TextLink variant="lime" label="Lean more" href="#" />
     </main>
   );
 }

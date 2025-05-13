@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import Link from "next/link";
 import { ArrowUpRightIcon } from "@heroicons/react/24/solid";
 
 type Variant = "lime" | "dark" | "light";
@@ -6,6 +7,7 @@ type Variant = "lime" | "dark" | "light";
 interface TextLinkProps {
     variant: Variant;
     label: string;
+    href: string;
 }
 
 const baseStyle = "w-auto h-[28px] flex items-center gap-[15px] text-xl font-normal p-0"
@@ -16,11 +18,11 @@ const variantStyle: Record<Variant, string> = {
     lime: "bg-transparent text-lime",
 }
 
-export const TextLink = ({variant = "dark", label}: TextLinkProps) => {
+export const TextLink = ({variant = "dark", label, href}: TextLinkProps) => {
     return(
-        <div className={clsx(variantStyle[variant], baseStyle)}>
+        <Link className={clsx(variantStyle[variant], baseStyle)} href={href}>
             <span>{label}</span>
             <ArrowUpRightIcon className="size-5" />
-        </div>
+        </Link>
     )
 }
