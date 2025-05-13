@@ -3,6 +3,7 @@ import { Typography } from "./components/atoms/Typography";
 import { Button } from "./components/atoms/Button";
 import { Heading } from "./components/atoms/Heading";
 import { TextLink } from "./components/atoms/TextLink";
+import { IconLink } from "./components/atoms/IconLink";
 
 export default function Page() {
   return (
@@ -16,6 +17,7 @@ export default function Page() {
         <Button variant="positive" label="Book a consultation" />
         <Heading variant="lime" label="Team" />
         <TextLink variant="lime" label="Lean more" href="#" />
+        <IconLink variant="dark" label="Learn more" href="#" />
     </main>
   );
 }

@@ -13,16 +13,16 @@ interface TextLinkProps {
 const baseStyle = "w-auto h-[28px] flex items-center gap-[15px] text-xl font-normal p-0"
 
 const variantStyle: Record<Variant, string> = {
-    dark: "bg-transparent text-white",
-    light: "bg-transparent text-white",
-    lime: "bg-transparent text-lime",
+    dark: "bg-transparent text-white stroke-white",
+    light: "bg-transparent text-white stroke-white",
+    lime: "bg-transparent text-lime stroke-lime",
 }
 
 export const TextLink = ({variant = "dark", label, href}: TextLinkProps) => {
     return(
         <Link className={clsx(variantStyle[variant], baseStyle)} href={href}>
             <span>{label}</span>
-            <ArrowUpRightIcon className="size-5" />
+            <ArrowUpRightIcon className="size-6 font-bold stroke-2" />
         </Link>
     )
 }
