@@ -1,5 +1,6 @@
 "use client"
 import { Typography } from "./components/atoms/Typography";
+import { Button } from "./components/atoms/Button";
 
 export default function Page() {
   return (
@@ -10,6 +11,7 @@ export default function Page() {
         <Typography variant="p" className="mb-8">
           Découvrez une solution rapide, moderne et adaptée à vos besoins.
         </Typography>
+        <Button variant="positive" label="Book a consultation" />
     </main>
   );
 }
