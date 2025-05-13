@@ -4,6 +4,7 @@ import { Button } from "./components/atoms/Button";
 import { Heading } from "./components/atoms/Heading";
 import { TextLink } from "./components/atoms/TextLink";
 import { IconLink } from "./components/atoms/IconLink";
+import { Logo } from "./components/atoms/Logo";
 
 export default function Page() {
   return (
@@ -18,6 +19,7 @@ export default function Page() {
         <Heading variant="lime" label="Team" />
         <TextLink variant="lime" label="Lean more" href="#" />
         <IconLink variant="dark" label="Learn more" href="#" />
+        <Logo mode="dark" />
     </main>
   );
 }
