@@ -11,7 +11,7 @@ interface IconLinkProps {
 }
 
 const globalStyle = "w-auto h-[41px] flex items-center gap-[15px] text-xl font-normal p-0 group"
-const baseIconVariantStyle = "flex items-center justify-center w-[41px] h-[41px] rounded-full"
+const baseIconVariantStyle = "flex items-center justify-center w-[41px] h-[41px] rounded-full ease-in-out duration-300"
 const baseLabelStyle = "text-xl leading-[28px]"
 
 const iconVariantStyle: Record<Variant, string> = {

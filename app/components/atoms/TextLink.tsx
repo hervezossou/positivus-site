@@ -10,7 +10,7 @@ interface TextLinkProps {
     href: string;
 }
 
-const baseStyle = "w-auto h-[28px] flex items-center gap-[15px] text-xl font-normal p-0"
+const baseStyle = "w-auto h-[28px] flex items-center gap-[15px] text-xl font-normal p-0 group"
 
 const variantStyle: Record<Variant, string> = {
     dark: "bg-transparent text-white stroke-white",
@@ -22,7 +22,7 @@ export const TextLink = ({variant = "dark", label, href}: TextLinkProps) => {
     return(
         <Link className={clsx(variantStyle[variant], baseStyle)} href={href}>
             <span>{label}</span>
-            <ArrowUpRightIcon className="size-6 font-bold stroke-2" />
+            <ArrowUpRightIcon className="size-6 font-bold stroke-1 group-hover:rotate-45 ease-in-out duration-200" />
         </Link>
     )
 }
