@@ -1,10 +1,10 @@
 "use client"
-import { Typography } from "./components/common/Typography";
-import { Button } from "./components/common/Button";
-import { Heading } from "./components/common/Heading";
-import { TextLink } from "./components/common/TextLink";
-import { IconLink } from "./components/common/IconLink";
-import { Logo } from "./components/common/Logo";
+import { Typography } from "./components/common/atoms/Typography";
+import { Button } from "./components/common/atoms/Button";
+import { Heading } from "./components/common/atoms/Heading";
+import { TextLink } from "./components/common/atoms/TextLink";
+import { IconLink } from "./components/common/atoms/IconLink";
+import { Logo } from "./components/common/atoms/Logo";
 
 export default function Page() {
   return (
