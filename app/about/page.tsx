@@ -1,4 +1,4 @@
-import { NavLink } from "../components/common/atoms/NavLink";
+import { NavLink } from "../components/common/NavLink";
 
 export default function Page() {
     return (

@@ -1,7 +1,7 @@
 "use client"
 
-import { Button } from "../common/atoms/Button"
-import { Typography } from "../common/atoms/Typography"
+import { Button } from "../common/Button"
+import { Typography } from "../common/Typography"
 import Image from "next/image"
 import { useOnMobile } from "components/app/lib/hooks"
 
