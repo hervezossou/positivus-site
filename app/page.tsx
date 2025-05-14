@@ -5,6 +5,7 @@ import { Heading } from "./components/common/atoms/Heading";
 import { TextLink } from "./components/common/atoms/TextLink";
 import { IconLink } from "./components/common/atoms/IconLink";
 import { Logo } from "./components/common/atoms/Logo";
+import { NavLink } from "./components/common/atoms/NavLink";
 
 export default function Page() {
   return (
@@ -20,6 +21,7 @@ export default function Page() {
         <TextLink variant="lime" label="Lean more" href="#" />
         <IconLink variant="dark" label="Learn more" href="#" />
         <Logo mode="dark" />
+        <NavLink label="About" href="/about" />
     </main>
   );
 }
