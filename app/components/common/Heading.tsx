@@ -8,7 +8,7 @@ interface HeadingProps {
     label: string;
 }
 
-const baseStyle = "w-[119px] h-[51px] flex items-center justify-center gap-[10px] text-[40px] font-medium py-0 px-[7px] rounded-[7px]"
+const baseStyle = "w-max h-[51px] flex items-center justify-center gap-[10px] text-[40px] font-medium py-0 px-[7px] rounded-[7px]"
 
 const variantStyle: Record<Variant, string> = {
     dark: "bg-dark text-white",
