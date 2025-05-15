@@ -4,21 +4,21 @@ import { Button } from "../common/Button"
 import { Typography } from "../common/Typography"
 import { LogoMarquee } from "./LogoMarquee"
 import Image from "next/image"
-import { useOnMobile } from "components/app/lib/hooks"
+import { useMediaQuery } from "components/app/lib/hooks"
 
 export const HeroSection = () => {
-    const onMobile = useOnMobile();
+    const isMobile = useMediaQuery('(max-width: 768px)');
 
     return (
         <section className="flex flex-col px-4 space-y-4 lg:px-10 xl:px-[100px]">
-            <div className="flex flex-col-reverse items-start gap-auto md:flex-row lg:items-start">
+            <div className="flex flex-col-reverse items-start gap-auto md:flex-row md:items-center lg:items-start">
                 <div className="flex flex-col items-start justify-between gap-4 w-full md:w-1/2 md:gap-8">
-                    {!onMobile && 
+                    {!isMobile && 
                         <Typography variant="h1" className="md:w-auto lg:w-[531px]">
                             Navigating the digital landscape for success
                         </Typography>
                     }
-                <Typography variant="p" className="mb-4 lg:w-[499px] lg:mb-0">
+                    <Typography variant="p" className="mb-4 lg:w-[499px] lg:mb-0">
                         Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO,    PPC, social media marketing, and content creation.
                     </Typography>
                     <Button 
@@ -28,7 +28,7 @@ export const HeroSection = () => {
                     />
                 </div>
                 <div className="flex flex-col items-center justify-start w-full md:w-1/2">
-                    {onMobile && 
+                    {isMobile && 
                         <Typography 
                             variant="h1" 
                             children="Navigating the digital landscape for success" 

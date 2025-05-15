@@ -19,7 +19,12 @@ const variantStyle: Record<Variant, string> = {
 export const Heading = ({variant = "dark", label}: HeadingProps) => {
     return(
         <div className={clsx(variantStyle[variant], baseStyle)}>
-            <Typography variant="h2" className={`${variant === "dark" && "text-white"}`}>{label}</Typography>
+            <Typography 
+                variant="h2" 
+                className={`${variant === "dark" && "text-white"} text-nowrap`}
+            >
+                {label}
+            </Typography>
         </div>
     )
 }

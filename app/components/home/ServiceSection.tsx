@@ -7,7 +7,7 @@ export const ServiceSection = () => {
     return (
         <section className="flex flex-col px-4 py-4 gap-y-14 lg:px-10 lg:py-10 xl:px-[100px]">
             <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:justify-start md:gap-10">
-                <Heading variant="lime" label="Services" ></Heading>
+                <Heading variant="lime" label="Services" />
                 <Typography variant="p" className="w-[390px] text-center md:w-[580px] md:text-left">
                     At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:
                 </Typography>

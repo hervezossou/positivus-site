@@ -1,19 +1,19 @@
 import { useState, useEffect } from "react";
 
-export const useOnMobile = (breakpoint = 767) => {
-    const [onMobile, setOnMobile] = useState(false);
+export const useMediaQuery = (query: string) => {
+    const [matches, setMatches] = useState(false);
 
     useEffect(() => {
-        const mediaQuery = window.matchMedia(`(max-width: ${breakpoint}px)`);
+        const mediaQuery = window.matchMedia(query);
 
-        const handleChange = () => setOnMobile(mediaQuery.matches);
+        const handler = () => setMatches(mediaQuery.matches);
 
-        // initial value
-        handleChange();
-        mediaQuery.addEventListener("change", handleChange);
+        // Check at the mounting time
+        handler();
+        mediaQuery.addEventListener("change", handler);
 
-        return () => mediaQuery.removeEventListener("change", handleChange);
-    }, [breakpoint])
+        return () => mediaQuery.removeEventListener("change", handler);
+    }, [query])
     
-    return onMobile;
+    return matches;
 }
