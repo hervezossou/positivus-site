@@ -21,7 +21,11 @@ export const HeroSection = () => {
                 <Typography variant="p" className="mb-4 lg:w-[499px] lg:mb-0">
                         Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO,    PPC, social media marketing, and content creation.
                     </Typography>
-                    <Button variant="contained" label="Book a consultation" />
+                    <Button 
+                        variant="contained" 
+                        label="Book a consultation"
+                        onClick={() => alert("You booked a consultation!")} 
+                    />
                 </div>
                 <div className="flex flex-col items-center justify-start w-full md:w-1/2">
                     {onMobile && 

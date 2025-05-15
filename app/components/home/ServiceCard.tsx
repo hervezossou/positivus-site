@@ -16,7 +16,7 @@ interface ServiceCardProps {
     };
 }
 
-const baseStyle = "w-full h-[322px] flex items-center justify-between rounded-[45px] p-[50px] gap-auto border drop-shadow-black lg:w-[600px] lg:h-[310px]"
+const baseStyle = `w-full h-[322px] flex items-start justify-between rounded-[45px] p-[50px] gap-auto md:items-center lg:w-full lg:h-[310px]`
 
 const backgroundVariantStyle: Record<Variant, string> = {
     lime: "bg-lime",
@@ -27,9 +27,10 @@ const backgroundVariantStyle: Record<Variant, string> = {
 export const ServiceCard = ({ variant = "light", isLatest=true, service }: ServiceCardProps) => {
     const headingVariant = (variant === "dark" && isLatest) ? "lime" : variant === "lime" || variant === "dark" ? "light" : "lime";
     const iconLinkVariant = variant === "light" || (variant === "lime") ? "dark" : "light";
+    const shadowStyle = variant !== "dark" && "border [filter:drop-shadow(0px_5px_0px_#191A23)]"
 
     return (
-        <div className={clsx(baseStyle, backgroundVariantStyle[variant])}>
+        <div className={clsx(baseStyle, backgroundVariantStyle[variant], shadowStyle)}>
             <div className="flex flex-col items-start justify-between gap-[93px]">
                 <div className="flex flex-col gap-0">
                     <Heading 
@@ -41,10 +42,20 @@ export const ServiceCard = ({ variant = "light", isLatest=true, service }: Servi
                         label={service.subtitle}
                     />
                 </div>
-                <IconLink variant={iconLinkVariant} label={service.label} href="/services" />
+                <IconLink 
+                    variant={iconLinkVariant} 
+                    label={service.label} 
+                    href="/services" 
+                />
             </div>
-            <div className="flex items-center justify-center w-auto">
-                <Image src={service.image} fill className="object-cover" alt={`${service.title}-${service.subtitle}`} />
+            <div className="flex items-center justify-center w-[150px] h-[150px] md:w-[180px] md:h-[180px] lg:w-[208px] lg:h-[210px] relative">
+                <Image 
+                    src={service.image} 
+                    width={208} 
+                    height={210} 
+                    className="object-contain w-full h-full" 
+                    alt={`${service.title}-${service.subtitle}`} 
+                />
             </div>
         </div>
     )

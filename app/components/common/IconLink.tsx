@@ -12,7 +12,7 @@ interface IconLinkProps {
 
 const globalStyle = "w-auto h-[41px] flex items-center gap-[15px] text-xl font-normal p-0 group"
 const baseIconVariantStyle = "flex items-center justify-center w-[41px] h-[41px] rounded-full group-hover:rotate-45 ease-in-out duration-300"
-const baseLabelStyle = "text-xl leading-[28px]"
+const baseLabelStyle = "text-xl leading-[28px] group-hover:underline"
 
 const iconVariantStyle: Record<Variant, string> = {
     dark: "bg-dark text-lime stroke-lime group-hover:text-white group-hover:stroke-white",
@@ -28,7 +28,7 @@ const labelVariantStyle: Record<Variant, string> = {
 
 export const IconLink = ({variant = "dark", label, href}: IconLinkProps) => {
     return(
-        <Link className={clsx(globalStyle)} href={`${href ? "href" : "/"}`}>
+        <Link className={clsx(globalStyle)} href={`${href ? href : "/"}`}>
             <div className={clsx(baseIconVariantStyle, iconVariantStyle[variant])}>
                 <ArrowUpRightIcon className="size-6 font-bold stroke-2" />
             </div>
