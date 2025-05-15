@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export const CallToAction = () => {
     return (
-        <section className="px-4 py-4 lg:px-10 lg:py-10 xl:px-[110px]">
+        <section className="px-5 py-4 lg:px-10 lg:py-10 xl:px-[110px]">
             <div className="bg-cloud h-[347px] rounded-45 flex items-center justify-between gap-[275px] px-15">
                 <div className="flex flex-col max-w-[500px] gap-[26px]">
                     <Typography variant="h3">

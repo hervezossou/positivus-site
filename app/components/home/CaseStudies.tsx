@@ -9,7 +9,7 @@ export const CaseStudies = () => {
     const isTablet = useMediaQuery('(max-width: 1024px)');
 
     return (
-        <section className="flex flex-col gap-y-14 px-4 py-4 lg:px-10 lg:py-10 xl:px-[110px]">
+        <section className="flex flex-col gap-y-14 px-5 py-4 lg:px-10 lg:py-10 xl:px-[110px]">
             <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:justify-start md:gap-10">
                 <Heading variant="lime" label="Case Studies" />
                 <Typography variant="p" className="w-[390px] text-center md:w-[580px] md:text-left">
