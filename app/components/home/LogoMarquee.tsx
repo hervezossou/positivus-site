@@ -38,7 +38,7 @@ export const LogoMarquee = () => {
                             alt={`Logo ${index}`}
                             width={100}
                             height={50}
-                            className="mx-auto object-contain"
+                            className="mx-auto object-contain h-auto w-auto"
                         />
                     </div>
                 ))}
