@@ -4,6 +4,7 @@ import { HeroSection } from "./components/home/HeroSection";
 import { ServiceSection } from "./components/home/ServiceSection";
 import { CallToAction } from "./components/home/CallToAction";
 import { CaseStudies } from "./components/home/CaseStudies";
+import { FaqSection } from "./components/home/FaqSection";
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
         <ServiceSection />
         <CallToAction />
         <CaseStudies />
+        <FaqSection />
     </main>
   );
 }

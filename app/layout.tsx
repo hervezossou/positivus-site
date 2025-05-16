@@ -3,7 +3,7 @@ import { spaceGrotesk } from "./lib/fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Positivus landing page",
+  title: "Positivus - Get Good Vibes",
   description: "Crafted with Nextjs & Tailwindcss",
 };
 

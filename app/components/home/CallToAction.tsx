@@ -24,7 +24,7 @@ export const CallToAction = () => {
                         src="/images/call-to-action.png" 
                         width={359} 
                         height={394.27} 
-                        className="object-cover h-full mr-[135px] scale-120" 
+                        className="object-cover h-auto mr-[135px] scale-180" 
                         alt="Call To Action"
                     />
                 </div>

@@ -60,3 +60,36 @@ export const caseStudies = [
         label: "Learn more"
     }
 ]
+
+export const FaqData = [
+    {
+        position: "01",
+        title: "Consultation",
+        description: "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+    },
+    {
+        position: "02",
+        title: "Research ans Strategy Development",
+        description: "We conduct thorough market research to analyze your competitors, audience behavior, and industry trends. Based on this analysis, we craft a customized marketing strategy aligned with your business objectives."
+    },
+    {
+        position: "03",
+        title: "Implementation",
+        description: "Our team puts the strategy into action using the latest digital tools and platforms. From SEO to content creation and paid ads, we execute each tactic with precision to ensure maximum impact."
+    },
+    {
+        position: "04",
+        title: "Monitoring and Optimization",
+        description: "We continuously track campaign performance and key metrics to identify areas of improvement. This enables us to make real-time adjustments and maximize your return on investment."
+    },
+    {
+        position: "05",
+        title: "Reporting and Communication",
+        description: "You’ll receive regular reports with clear insights into your campaign’s progress. We maintain transparent communication to ensure you're always informed and involved in decision-making."
+    },
+    {
+        position: "01",
+        title: "Continual Improvement",
+        description: "We believe in ongoing growth. By analyzing results and feedback, we refine your strategy over time to adapt to changing market conditions and evolving customer needs."
+    }
+]
