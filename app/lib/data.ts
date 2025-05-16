@@ -88,8 +88,53 @@ export const FaqData = [
         description: "You’ll receive regular reports with clear insights into your campaign’s progress. We maintain transparent communication to ensure you're always informed and involved in decision-making."
     },
     {
-        position: "01",
+        position: "06",
         title: "Continual Improvement",
         description: "We believe in ongoing growth. By analyzing results and feedback, we refine your strategy over time to adapt to changing market conditions and evolving customer needs."
     }
+]
+
+export const members = [
+    {
+        name: "John Smith",
+        role: "CEO and Founder",
+        description: "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
+        picture: "/images/john-smith.png",
+        icon: "/icons/linkedin.png"
+    },
+    {
+        name: "Jane Doe",
+        role: "Director of Operations",
+        description: "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
+        picture: "/images/jane-doe.png",
+        icon: "/icons/linkedin.png"
+    },
+    {
+        name: "Michael Brown",
+        role: "Senior SEO Specialist",
+        description: "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+        picture: "/images/michael-brown.png",
+        icon: "/icons/linkedin.png"
+    },
+    {
+        name: "Emily Johnson",
+        role: "PPC Manager",
+        description: "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
+        picture: "/images/emily-johnson.png",
+        icon: "/icons/linkedin.png"
+    },
+    {
+        name: "Brian Williams",
+        role: "Social Media Specialist",
+        description: "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
+        picture: "/images/brian-williams.png",
+        icon: "/icons/linkedin.png"
+    },
+    {
+        name: "Sarah Kim",
+        role: "Content Creator",
+        description: "2+ years of experience in writing and editing. Skilled in creating compelling, SEO-optimized content for various industries",
+        picture: "/images/sarah-kim.png",
+        icon: "/icons/linkedin.png"
+    },
 ]
