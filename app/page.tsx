@@ -6,6 +6,7 @@ import { CallToAction } from "./components/home/CallToAction";
 import { CaseStudies } from "./components/home/CaseStudies";
 import { FaqSection } from "./components/home/FaqSection";
 import { TeamSection } from "./components/home/TeamSection";
+import { TestimonialSection } from "./components/home/TestimonialSection";
 
 export default function Page() {
   return (
@@ -16,6 +17,7 @@ export default function Page() {
         <CaseStudies />
         <FaqSection />
         <TeamSection />
+        <TestimonialSection />
     </main>
   );
 }
