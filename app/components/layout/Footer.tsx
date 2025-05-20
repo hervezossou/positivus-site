@@ -89,7 +89,7 @@ export const Footer = () => {
                             name="newsletter-email" 
                             id="newsletter-email"
                             placeholder="Email"
-                            className="w-full lg:w-[285px] text-white placeholder:text-white border border-white rounded-[14px] px-[35px] py-[22px]" 
+                            className="w-full lg:w-[285px] text-white placeholder:text-white border border-white rounded-[14px] px-[35px] py-[22px] focus:outline-none focus:border-lime" 
                         />
                     </div>
                     <Button variant="positive" label="Subscribe to news" />
