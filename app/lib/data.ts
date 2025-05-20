@@ -85,7 +85,7 @@ export const FaqData = [
     {
         position: "05",
         title: "Reporting and Communication",
-        description: "You’ll receive regular reports with clear insights into your campaign’s progress. We maintain transparent communication to ensure you're always informed and involved in decision-making."
+        description: "You'll receive regular reports with clear insights into your campaign's progress. We maintain transparent communication to ensure you're always informed and involved in decision-making."
     },
     {
         position: "06",
@@ -164,5 +164,61 @@ export const testimonials = [
         author: "John Smith",
         position: "Marketing Director at XYZ Corp",
         content: "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."
+    },
+]
+
+export const navLinks = [
+    {
+        label: "About Us",
+        path: "/about"
+    },
+    {
+        label: "Services",
+        path: "/services"
+    },
+    {
+        label: "Use Cases",
+        path: "/use-cases"
+    },
+    {
+        label: "Pricing",
+        path: "/pricing"
+    },
+    {
+        label: "Blog",
+        path: "/blog"
+    },
+]
+
+export const socialLinks = [
+    {
+        icon: "/icons/linkedin-icon.png",
+        link: "https://www.linkedin.com",
+        alt: "LinkedIn Icon"
+    },
+    {
+        icon: "/icons/facebook-icon.png",
+        link: "https://www.facebook.com",
+        alt: "Facebook Icon"
+    },
+    {
+        icon: "/icons/twitter-icon.png",
+        link: "https://www.x.com",
+        alt: "Twitter Icon"
+    },
+]
+
+export const contactInfos = [
+    {
+        label: "Email",
+        value: "info@positivus.com"
+    },
+    {
+        label: "Phone",
+        value: "555-567-8901"
+    },
+    {
+        label: "Address",
+        value: "1234 Main St Moonstone City, Stardust State 12345"
     },
 ]
