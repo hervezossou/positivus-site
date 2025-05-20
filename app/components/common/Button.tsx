@@ -5,10 +5,10 @@ type Variant = "contained" | "outlined" | "positive";
 interface ButtonProps {
     variant: Variant;
     label: string;
-    onClick?: () => void;
+    onClick?: (e: React.FormEvent) => void;
 }
 
-const baseStyle = "flex w-max items-center justify-center gap-[10px] py-5 px-8 rounded-[14px]"
+const baseStyle = "flex w-auto items-center justify-center gap-[10px] py-5 px-8 rounded-[14px]"
 
 const variantStyle: Record<Variant, string> = {
     contained: "bg-dark text-white hover:scale-105 ease-in-out duration-200",

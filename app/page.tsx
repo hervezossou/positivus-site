@@ -7,6 +7,7 @@ import { CaseStudies } from "./components/home/CaseStudies";
 import { FaqSection } from "./components/home/FaqSection";
 import { TeamSection } from "./components/home/TeamSection";
 import { TestimonialSection } from "./components/home/TestimonialSection";
+import { ContactSection } from "./components/home/ContactSection";
 
 export default function Page() {
   return (
@@ -18,6 +19,7 @@ export default function Page() {
         <FaqSection />
         <TeamSection />
         <TestimonialSection />
+        <ContactSection />
     </main>
   );
 }
