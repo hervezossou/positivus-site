@@ -1,13 +1,13 @@
 "use client"
 
-import { ContactForm } from "./ContactForm";
-import { Heading } from "../common/Heading";
-import { Typography } from "../common/Typography";
+import { ContactForm } from "../ui/ContactForm";
+import { Heading } from "../../common/Heading";
+import { Typography } from "../../common/Typography";
 import Image from "next/image";
 
 export const ContactSection = () => {
     return (
-        <section className="flex flex-col gap-y-10 px-5 py-4 lg:px-10 lg:py-10 xl:px-[110px]">
+        <section className="flex flex-col gap-y-10 py-4 lg:py-10">
             <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:justify-start md:gap-10">
                 <Heading variant="lime" label="Contact Us" />
                 <Typography variant="p" className="max-w-[390px] text-center md:w-[473px] md:text-left">

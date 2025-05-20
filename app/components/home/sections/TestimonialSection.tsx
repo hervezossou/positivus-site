@@ -1,9 +1,9 @@
 "use client"
 
-import { Heading } from "../common/Heading"
-import { Typography } from "../common/Typography"
-import { TestimonialCard } from "./TestimonialCard"
-import { Navigation } from "./Navigation"
+import { Heading } from "../../common/Heading"
+import { Typography } from "../../common/Typography"
+import { TestimonialCard } from "../ui/TestimonialCard"
+import { Navigation } from "../ui/Navigation"
 import { testimonials } from "components/app/lib/data"
 import { useState } from "react"
 import { motion } from "motion/react"
@@ -20,7 +20,7 @@ export const TestimonialSection = () => {
     };
 
     return (
-        <section className="flex flex-col gap-y-10 px-5 py-4 lg:px-10 lg:py-10 xl:px-[110px]">
+        <section className="flex flex-col gap-y-10 py-4 lg:py-10">
             <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:justify-start md:gap-10">
                 <Heading variant="lime" label="Testimonials" />
                 <Typography variant="p" className="w-auto text-center md:w-[473px] md:text-left">

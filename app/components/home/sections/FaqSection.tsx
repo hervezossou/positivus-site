@@ -1,8 +1,8 @@
-import { Heading } from "../common/Heading"
-import { Typography } from "../common/Typography"
+import { Heading } from "../../common/Heading"
+import { Typography } from "../../common/Typography"
 import { useMediaQuery } from "components/app/lib/hooks"
 import { FaqData } from "components/app/lib/data"
-import { AccordeonItem } from "./AccordeonItem"
+import { AccordeonItem } from "../ui/AccordeonItem"
 import { useState } from "react"
 
 export const FaqSection = () => {
@@ -14,7 +14,7 @@ export const FaqSection = () => {
     };
 
     return (
-        <section className="flex flex-col gap-y-14 px-5 py-4 lg:px-10 lg:py-10 xl:px-[110px]">
+        <section className="flex flex-col gap-y-14 py-4 lg:py-10">
             <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:justify-start md:gap-10">
                 {isMobile ? 
                 (<div className="flex flex-col items-center gap-0">

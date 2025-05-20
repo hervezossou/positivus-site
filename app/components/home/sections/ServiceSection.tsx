@@ -1,11 +1,11 @@
-import { Heading } from "../common/Heading"
-import { Typography } from "../common/Typography"
-import { ServiceCard } from "./ServiceCard"
+import { Heading } from "../../common/Heading"
+import { Typography } from "../../common/Typography"
+import { ServiceCard } from "../ui/ServiceCard"
 import { services } from "components/app/lib/data"
 
 export const ServiceSection = () => {
     return (
-        <section className="flex flex-col px-5 py-4 gap-y-14 lg:px-10 lg:py-10 xl:px-[100px]">
+        <section className="flex flex-col py-4 gap-y-14 lg:py-10">
             <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:justify-start md:gap-10">
                 <Heading variant="lime" label="Services" />
                 <Typography variant="p" className="w-[390px] text-center md:w-[580px] md:text-left">

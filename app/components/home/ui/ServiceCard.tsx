@@ -1,7 +1,7 @@
 import Image from "next/image";
 import clsx from "clsx";
-import { Heading } from "../common/Heading"
-import { IconLink } from "../common/IconLink";
+import { Heading } from "../../common/Heading"
+import { IconLink } from "../../common/IconLink";
 
 type Variant = "lime" | "dark" | "light";
 

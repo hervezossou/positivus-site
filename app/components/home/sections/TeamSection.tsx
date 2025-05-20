@@ -1,12 +1,12 @@
 import { members } from "components/app/lib/data"
-import { Heading } from "../common/Heading"
-import { Typography } from "../common/Typography"
-import { MemberCard } from "./MemberCard"
-import { Button } from "../common/Button"
+import { Heading } from "../../common/Heading"
+import { Typography } from "../../common/Typography"
+import { MemberCard } from "../ui/MemberCard"
+import { Button } from "../../common/Button"
 
 export const TeamSection = () => {
     return (
-        <section className="flex flex-col gap-y-10 px-5 py-4 lg:px-10 lg:py-10 xl:px-[110px]">
+        <section className="flex flex-col gap-y-10 py-4 lg:py-10">
             <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:justify-start md:gap-10">
                 <Heading variant="lime" label="Team" />
                 <Typography variant="p" className="w-auto text-center md:w-[473px] md:text-left">

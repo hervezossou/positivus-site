@@ -1,4 +1,4 @@
-import { Typography } from "../common/Typography"
+import { Typography } from "../../common/Typography"
 import { members } from "components/app/lib/data"
 import Image from "next/image"
 import Link from "next/link"

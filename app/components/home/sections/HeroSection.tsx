@@ -1,8 +1,8 @@
 "use client"
 
-import { Button } from "../common/Button"
-import { Typography } from "../common/Typography"
-import { LogoMarquee } from "./LogoMarquee"
+import { Button } from "../../common/Button"
+import { Typography } from "../../common/Typography"
+import { LogoMarquee } from "../ui/LogoMarquee"
 import Image from "next/image"
 import { useMediaQuery } from "components/app/lib/hooks"
 
@@ -10,7 +10,7 @@ export const HeroSection = () => {
     const isMobile = useMediaQuery('(max-width: 768px)');
 
     return (
-        <section className="flex flex-col px-5 space-y-4 lg:px-10 xl:px-[100px]">
+        <section className="flex flex-col px-5 gap-y-4">
             <div className="flex flex-col-reverse items-start gap-auto md:flex-row md:items-center lg:items-start">
                 <div className="flex flex-col items-start justify-between gap-4 w-full md:w-1/2 md:gap-8">
                     {!isMobile && 

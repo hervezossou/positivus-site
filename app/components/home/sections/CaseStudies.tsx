@@ -1,15 +1,15 @@
-import { TextLink } from "../common/TextLink"
-import { Heading } from "../common/Heading"
-import { Typography } from "../common/Typography"
+import { TextLink } from "../../common/TextLink"
+import { Heading } from "../../common/Heading"
+import { Typography } from "../../common/Typography"
 import { useMediaQuery } from "components/app/lib/hooks"
 import { caseStudies } from "components/app/lib/data"
-import { CaseStudyCard } from "./CaseStudyCard"
+import { CaseStudyCard } from "../ui/CaseStudyCard"
 
 export const CaseStudies = () => {
     const isTablet = useMediaQuery('(max-width: 1024px)');
 
     return (
-        <section className="flex flex-col gap-y-14 px-5 py-4 lg:px-10 lg:py-10 xl:px-[110px]">
+        <section className="flex flex-col gap-y-14 py-4 lg:py-10">
             <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:justify-start md:gap-10">
                 <Heading variant="lime" label="Case Studies" />
                 <Typography variant="p" className="w-[390px] text-center md:w-[580px] md:text-left">
