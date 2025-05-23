@@ -17,10 +17,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${spaceGrotesk.variable} antialiased box-border mx-auto px-5 lg:px-10 xl:px-[100px]`}
+        className={`${spaceGrotesk.variable} antialiased box-border mx-auto max-w-[1580px] px-5 lg:px-16 2xl:px-[100px] overflow-x-hidden`}
       >
         <NavBar />
-        <main className="flex flex-col space-y-10">
+        <main className="flex flex-col space-y-10 pt-8">
           {children}
         </main>
         <Footer />
