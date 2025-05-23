@@ -14,7 +14,7 @@ export const NavLink = ({href, label}: NavLinkProps ) => {
     return (
         <Link 
             href={href} 
-            className={`max-w-[99px] h-7 text-xl leading-7 hover:border-b-3 hover:border-b-lime ${isActive && "bg-lime font-medium py-1 px-2 rounded-md"}`}
+            className={`max-w-auto h-auto text-xl hover:border-b-3 hover:border-b-lime ease-in-out ${isActive && "bg-lime font-medium py-2 px-3 rounded-md hover:border-none"}`}
         >
             {label}
         </Link>
