@@ -30,10 +30,11 @@ export const HeroSection = () => {
                 <div className="flex flex-col items-center justify-start w-full md:w-1/2">
                     {isMobile && 
                         <Typography 
-                            variant="h1" 
-                            children="Navigating the digital landscape for success" 
+                            variant="h1"  
                             className="w-full"
-                        />
+                        >
+                            Navigating the digital landscape for success
+                        </Typography>
                     }
                     <Image 
                         src="/images/home-hero.png" 
