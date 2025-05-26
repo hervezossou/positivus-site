@@ -1,5 +1,3 @@
-import { NavLink } from "../components/common/NavLink";
-
 export default function Page() {
     return (
         <main>
