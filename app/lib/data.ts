@@ -222,3 +222,45 @@ export const contactInfos = [
         value: "1234 Main St Moonstone City, Stardust State 12345"
     },
 ]
+
+export const pricingCardData = [
+    {
+        type: "Basic",
+        price: "$500",
+        isPopular: false,
+        advantages: [
+            "Website optimization",
+            "Social media setup and management (1 platform)",
+            "Monthly progress report",
+            "Email support",
+            "Basic competitor analysis",
+            "Initial SEO audit"
+        ]
+    },
+    {
+        type: "Pro",
+        price: "$1000",
+        isPopular: true,
+        advantages: [
+            "Includes all from the Basic Plan",
+            "Social media setup and management (up to 3 platform3)",
+            "PPC ad campaign management",
+            "Email and phone support",
+            "One page SEO improvements",
+            "Monthly content recommendations"
+        ]
+    },
+    {
+        type: "Elite",
+        price: "$2000",
+        isPopular: false,
+        advantages: [
+            "Includes all from the Pro Plan",
+            "Website design and development",
+            "Comprehensive SEO strategy",
+            "Social media setup and management (up to 5 platforms)",
+            "Content marketing strategy and implementation",
+            "In-depth analytics and reporting"
+        ]
+    },
+]
