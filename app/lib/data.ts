@@ -264,3 +264,30 @@ export const pricingCardData = [
         ]
     },
 ]
+
+export const frequentlyAskedQuestions = [
+    {
+        question: "Are there any additional fees or charges that may apply ?",
+        response: "Our pricing plans include a wide range of digital marketing services, including website design and development, SEO, PPC, advertising, social media marketing, content marketing, and more. We also offer custom packages that can be tailored to meet the specific needs of your business."
+    },
+    {
+        question: "Can I charge or cancel my plan at any time ?",
+        response: "Yes, we offer flexible subscription terms. You can cancel your plan at any time with a 30-day notice period. This allows us to properly wrap up any ongoing campaigns and ensure a smooth transition. For any plan changes, we require a 15-day notice to process the modifications effectively."
+    },
+    {
+        question: "Do you offer a free trial or consultation ?",
+        response: "Yes, we provide a free initial consultation where we analyze your current digital presence and discuss your business goals. While we don't offer a free trial of our services, we do provide a detailed proposal and strategy outline during the consultation to help you understand exactly what to expect from our partnership."
+    },
+    {
+        question: "How do you bill and invoice your clients ?",
+        response: "We offer flexible billing options to suit your needs. Most clients are billed monthly, but we also offer quarterly and annual billing cycles with discounted rates. Invoices are sent electronically, and we accept all major credit cards, bank transfers, and PayPal. Payment terms are typically net 15, and we provide detailed breakdowns of all services rendered."
+    },
+    {
+        question: "Are your services guaranteed to deliver results",
+        response: "While we cannot guarantee specific results as digital marketing success depends on various factors, we do guarantee our commitment to your success. We set clear, measurable KPIs at the start of each campaign and provide regular performance reports. Our track record shows consistent growth for our clients, with an average increase of 40% in organic traffic and 35% in conversion rates within the first six months."
+    },
+    {
+        question: "Do you offer contract-based or monthly retainer-based pricing ?",
+        response: "We offer both contract-based and monthly retainer options to accommodate different business needs. Our contract-based plans typically run for 6 or 12 months and offer the best value with locked-in rates. Monthly retainers provide more flexibility and can be adjusted based on your evolving needs. Both options include all our core services, with the main difference being the commitment period and pricing structure."
+    }
+]
