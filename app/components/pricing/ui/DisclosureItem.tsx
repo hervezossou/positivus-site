@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { Typography } from "../../common/Typography";
 import { motion, AnimatePresence } from "motion/react";
-import { useMediaQuery } from "components/app/lib/hooks";
 
 interface AccordeonItemProps {
     isOpen: boolean;
@@ -15,15 +14,14 @@ interface AccordeonItemProps {
 }
 
 export const DisclosureItem = ({ isOpen = false, data, onToggle }: AccordeonItemProps) => {
-    const isMobile = useMediaQuery('max-width: 768px');
     return(
         <div className={`${isOpen ? "bg-lime" : "bg-cloud"} w-full flex flex-col gap-[30px] px-6 py-8 md:px-10 md:py-[41px] rounded-45 border [filter:drop-shadow(0px_5px_0px_#191A23)]`}>
-            <div className="flex items-center justify-between">
-                <Typography variant={`${isMobile ? "h4" : "h3"}`}>
+            <div className="flex items-center justify-between gap-x-4">
+                <h4 className="text-lg md:text-xl font-medium text-black">
                     {data.question}
-                </Typography>
+                </h4>
                 <motion.div 
-                    className="flex items-center justify-center"
+                    className="flex items-center justify-center w-[120px]"
                     animate={{ rotate: isOpen ? 180 : 0 }}
                     transition={{ duration: 0.3, ease: "easeInOut" }}
                 >
@@ -33,7 +31,7 @@ export const DisclosureItem = ({ isOpen = false, data, onToggle }: AccordeonItem
                             width={58}
                             height={58}
                             alt="minus icon"
-                            className="size-12 text-white hover:cursor-pointer" 
+                            className="size-12 text-white object-cover hover:cursor-pointer" 
                             onClick={onToggle}
                         /> : 
                         <Image
@@ -41,7 +39,7 @@ export const DisclosureItem = ({ isOpen = false, data, onToggle }: AccordeonItem
                             width={58}
                             height={58}
                             alt="plus icon"
-                            className="size-12 text-white hover:cursor-pointer"
+                            className="size-12 text-white object-cover hover:cursor-pointer"
                             onClick={onToggle}
                         />
                     }

@@ -14,7 +14,7 @@ export const NavBar = () => {
     const pathname = usePathname();
 
     return (
-        <header className="sticky top-0 left-0 bg-white z-50 flex items-center py-4 lg:py-10">
+        <header className="flex items-center py-4 lg:py-10">
             <div className="w-full flex items-center justify-between gap-x-10">
                 <Link href="/">
                     <Image src="/logo-dark.png" alt="logo" width={180} height={29} />
