@@ -17,7 +17,7 @@ export const DisclosureItem = ({ isOpen = false, data, onToggle }: AccordeonItem
     return(
         <div className={`${isOpen ? "bg-lime" : "bg-cloud"} w-full flex flex-col gap-[30px] px-6 py-8 md:px-10 md:py-[41px] rounded-45 border [filter:drop-shadow(0px_5px_0px_#191A23)]`}>
             <div className="flex items-center justify-between gap-x-4">
-                <h4 className="text-lg md:text-xl font-medium text-black">
+                <h4 className="text-lg md:text-2xl lg:text-3xl font-medium text-black">
                     {data.question}
                 </h4>
                 <motion.div 
