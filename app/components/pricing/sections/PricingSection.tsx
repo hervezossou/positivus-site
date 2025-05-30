@@ -13,7 +13,7 @@ export const PricingSection = () => {
                     Elevate your Online Presence: Compettitve Pricing for Exceptional Results
                 </Typography>
             </div>
-            <div className="flex flex-col items-center gap-y-8 md:flex-row md:justify-between md:gap-x-8">
+            <div className="w-full flex flex-col items-center gap-y-8 md:flex-row md:justify-between md:flex-wrap lg:flex-nowrap lg:gap-x-10">
                 {pricingCardData.map((plan, index) => (
                     <PricingCard 
                         key={index} 
