@@ -12,16 +12,16 @@ interface PricingCardProps {
     variant: Variant;
 }
 
-const baseStyle = "w-full h-[900px] flex flex-col items-start gap-y-4 px-8 pt-5 pb-12 rounded-3xl lg:w-1/3";
+const baseStyle = "w-full h-[900px] flex flex-col items-start gap-y-4 px-4 pt-5 pb-12 rounded-3xl md:w-xs lg:w-1/3 lg:px-8";
 const variantStyle: Record<Variant, string> = {
-    light: "bg-white w-auto text-black border [filter:drop-shadow(0px_5px_0px_#191A23)]",
+    light: "bg-white text-black border [filter:drop-shadow(0px_5px_0px_#191A23)]",
     dark: "bg-dark text-white [filter:drop-shadow(0px_5px_0px_#191A23)]",
 }
 
 export const PricingCard = ({ type, price, isPopular, advantages, variant } : PricingCardProps) => {
     return (
         <div className={clsx(baseStyle, variantStyle[variant])}>
-            <div className="flex items-center justify-between gap-x-72 md:gap-x-50">
+            <div className="flex items-center justify-between w-full">
                 <p className="text-lg font-semibold md:text-xl">
                     {type} Plan
                 </p>
