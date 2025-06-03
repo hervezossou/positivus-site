@@ -1,5 +1,9 @@
+import { HeroSection } from "../components/blog/sections/HeroSection";
+
 export default function Page() {
     return (
-        <main>Blog Page</main>
+        <main>
+            <HeroSection />
+        </main>
     )
 }
