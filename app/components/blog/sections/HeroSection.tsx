@@ -31,15 +31,15 @@ export const HeroSection = () => {
                         PPC and organic marketing are two different strategies that can be used to promote a business. PPC is a paid strategy that uses paid ads to drive traffic to a website, while organic marketing is a free strategy that uses SEO to drive traffic to a website. Discover which strategy aligns with your goals and how to strike the perfect balance.
                     </Typography>
                 </div>
-                <div className="hidden -mt-16 lg:flex items-center justify-between gap-x-4 px-14 py-4">
-                    <div className="flex items-center justify-center">
+                <div className="hidden -mt-2 mb-18 lg:flex items-center justify-between gap-x-4 px-14 py-4">
+                    <div className="w-2/5 flex items-center justify-center">
                         <Image 
                             src="/images/home-hero.png" 
                             alt="Hero Section" 
-                            width={600} 
-                            height={515} 
-                            priority={true}
-                            className="aspect-auto object-cover scale-80"
+                            width={1200}
+                            height={900}
+                            priority={false}
+                            className="h-auto w-full object-cover"
                         />
                     </div>
                     <div className="flex flex-col items-start justify-between gap-y-6">
