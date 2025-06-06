@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { FontSize } from "../types";
+import { FontSize } from "../utils/types";
 
 interface FontSizeState {
     size: FontSize;
@@ -7,6 +7,6 @@ interface FontSizeState {
 }
 
 export const useFontSizeStore = create<FontSizeState>((set) => ({
-    size: "small",
+    size: "medium",
     setSize: (size) => set({ size }),
 }))
