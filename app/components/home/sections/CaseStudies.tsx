@@ -1,7 +1,7 @@
 import { TextLink } from "../../common/TextLink"
 import { Heading } from "../../common/Heading"
 import { Typography } from "../../common/Typography"
-import { useMediaQuery } from "components/app/lib/hooks"
+import { useMediaQuery } from "components/app/lib/utils/hooks"
 import { caseStudies } from "components/app/lib/data"
 import { CaseStudyCard } from "../ui/CaseStudyCard"
 

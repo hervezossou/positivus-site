@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { Typography } from "../../common/Typography";
 import { motion, AnimatePresence } from "motion/react";
-import { useMediaQuery } from "components/app/lib/hooks";
+import { useMediaQuery } from "components/app/lib/utils/hooks";
 
 interface AccordeonItemProps {
     isOpen: boolean;
