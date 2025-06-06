@@ -1,4 +1,4 @@
-import { FontSize } from "../../../lib/types"
+import { FontSize } from "../../../lib/utils/types"
 import { useFontSizeStore } from "components/app/lib/stores/useFontSizeStore";
 
 interface SizeObject {
