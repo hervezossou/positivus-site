@@ -3,6 +3,7 @@
 import { HeroSection } from "../components/blog/sections/HeroSection";
 import { ArticleHeading } from "../components/blog/sections/ArticleHeading";
 import { ArticleText } from "../components/blog/sections/ArticleText";
+import { MoreArticles } from "@/blog/sections/MoreArticles";
 
 export default function Page() { 
     return (
@@ -10,6 +11,7 @@ export default function Page() {
             <HeroSection />
             <ArticleHeading />
             <ArticleText />
+            <MoreArticles />
         </>
     )
 }

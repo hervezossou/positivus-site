@@ -291,3 +291,30 @@ export const frequentlyAskedQuestions = [
         response: "We offer both contract-based and monthly retainer options to accommodate different business needs. Our contract-based plans typically run for 6 or 12 months and offer the best value with locked-in rates. Monthly retainers provide more flexibility and can be adjusted based on your evolving needs. Both options include all our core services, with the main difference being the commitment period and pricing structure."
     }
 ]
+
+export const moreInsights = [
+    {
+        title: "10 SEO Myths You Need To Stop Believing",
+        description: "Think keyword stuffing and meta tags are the secret to ranking? Discover the truth behind common SEO misconceptions and learn what really drives results.",
+    },
+    {
+        title: "Maximizing ROI with Social Media Advertising",
+        description: "Social media ads more than just boosted posts. Explore proven strategies for crafting campaigns that engage audiences and deliver measurable returns.",
+    },
+    {
+        title: "How Content Marketing Fuels Long-Term Growth",
+        description: "Content isn't just king, it's the foundation of sustainable business growth. Find out how blogs, videos, and more can build trust and drive conversions.",
+    },
+    {
+        title: "The Art of A/B Testing: Perfecting Your Campaigns",
+        description: "From headlines to call-to-actions, small tweaks can make a big difference. Learn how to use A/B testing to refine your marketing strategies.",
+    },
+    {
+        title: "Understanding Google's Latest Algorithm Update",
+        description: "Search rankings change constantly; stay ahead by learning about the latest Google update and its impact on your SEO strategy.",
+    },
+    {
+        title: "5 Ways AI is Changing Digital Marketing",
+        description: "Artificial Intelligence is transforming the way we target, analyze, and engage audiences. Discover how to leverage AI to stay competitive.",
+    },
+]
