@@ -4,9 +4,9 @@ import Link from "next/link"
 import Image from "next/image"
 import { useState } from "react"
 import { usePathname } from "next/navigation"
-import { navLinks } from "components/app/lib/data"
-import { Button } from "../common/Button"
-import { NavLink } from "../common/NavLink"
+import { navLinks } from "../../../app/lib/data"
+import { Button } from "@/common/Button"
+import { NavLink } from "@/common/NavLink"
 import { motion } from "motion/react"
 
 export const NavBar = () => {
@@ -17,7 +17,13 @@ export const NavBar = () => {
         <header className="flex items-center py-4 lg:py-10">
             <div className="w-full flex items-center justify-between gap-x-10">
                 <Link href="/">
-                    <Image src="/logo-dark.png" alt="logo" width={180} height={29} />
+                    <Image 
+                        src="/logo-dark.png" 
+                        alt="Positivus black logo" 
+                        width={180} 
+                        height={29} 
+                        className="aspect-auto" 
+                    />
                 </Link>
 
                 {/* Desktop Navbar */}

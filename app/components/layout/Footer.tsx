@@ -2,10 +2,9 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { navLinks } from "components/app/lib/data";
-import { socialLinks, contactInfos } from "components/app/lib/data";
-import { Heading } from "../common/Heading";
-import { Button } from "../common/Button";
+import { navLinks, socialLinks, contactInfos } from "../../../app/lib/data";
+import { Heading } from "@/common/Heading";
+import { Button } from "@/common/Button";
 
 export const Footer = () => {
     const currentYear = new Date().getFullYear();
@@ -21,6 +20,7 @@ export const Footer = () => {
                         alt="Positivus white logo" 
                         width={180}
                         height={29}
+                        className="aspect-auto"
                     />
                 </Link>
                 <div className="flex items-center flex-col gap-y-4 lg:flex-row lg:gap-x-4 lg:gap-y-0">
