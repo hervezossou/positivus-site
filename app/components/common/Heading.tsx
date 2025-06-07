@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { Typography } from "./Typography";
+import { Typography } from "@/common/Typography";
 
 type Variant = "lime" | "dark" | "light";
 
