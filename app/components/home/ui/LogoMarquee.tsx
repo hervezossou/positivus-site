@@ -2,7 +2,7 @@
 
 import { useRef } from "react"
 import { motion, useAnimationFrame, useTransform, useMotionValue } from "motion/react"
-import { logos } from "components/app/lib/data"
+import { logos } from "../../../lib/data"
 import Image from "next/image"
 
 export const LogoMarquee = () => {

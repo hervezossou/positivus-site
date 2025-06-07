@@ -1,9 +1,9 @@
-import { TextLink } from "../../common/TextLink"
-import { Heading } from "../../common/Heading"
-import { Typography } from "../../common/Typography"
-import { useMediaQuery } from "components/app/lib/utils/hooks"
-import { caseStudies } from "components/app/lib/data"
-import { CaseStudyCard } from "../ui/CaseStudyCard"
+import { TextLink } from "@/common/TextLink"
+import { Heading } from "@/common/Heading"
+import { Typography } from "@/common/Typography"
+import { useMediaQuery } from "../../../lib/utils/hooks"
+import { caseStudies } from "../../../lib/data"
+import { CaseStudyCard } from "@/home/ui/CaseStudyCard"
 
 export const CaseStudies = () => {
     const isTablet = useMediaQuery('(max-width: 1024px)');

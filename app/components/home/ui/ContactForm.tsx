@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Button } from "../../common/Button"
+import { Button } from "@/common/Button"
 
 export const ContactForm = () => {
     const [isChecked, setIsChecked] = useState(true);

@@ -1,8 +1,8 @@
-import { members } from "components/app/lib/data"
-import { Heading } from "../../common/Heading"
-import { Typography } from "../../common/Typography"
-import { MemberCard } from "../ui/MemberCard"
-import { Button } from "../../common/Button"
+import { members } from "../../../lib/data"
+import { Heading } from "@/common/Heading"
+import { Typography } from "@/common/Typography"
+import { MemberCard } from "@/home/ui/MemberCard"
+import { Button } from "@/common/Button"
 
 export const TeamSection = () => {
     return (

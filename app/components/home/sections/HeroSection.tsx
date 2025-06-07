@@ -1,10 +1,10 @@
 "use client"
 
-import { Button } from "../../common/Button"
-import { Typography } from "../../common/Typography"
-import { LogoMarquee } from "../ui/LogoMarquee"
+import { Button } from "@/common/Button"
+import { Typography } from "@/common/Typography"
+import { LogoMarquee } from "@/home/ui/LogoMarquee"
 import Image from "next/image"
-import { useMediaQuery } from "components/app/lib/utils/hooks"
+import { useMediaQuery } from "../../../lib/utils/hooks"
 
 export const HeroSection = () => {
     const isMobile = useMediaQuery('(max-width: 768px)');

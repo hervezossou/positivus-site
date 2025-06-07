@@ -1,5 +1,5 @@
-import { Typography } from "../../common/Typography"
-import { TextLink } from "../../common/TextLink"
+import { Typography } from "@/common/Typography"
+import { TextLink } from "@/common/TextLink"
 
 interface CaseStudyProps {
     caseStudy: {

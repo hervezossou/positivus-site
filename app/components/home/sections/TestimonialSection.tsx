@@ -1,10 +1,10 @@
 "use client"
 
-import { Heading } from "../../common/Heading"
-import { Typography } from "../../common/Typography"
-import { TestimonialCard } from "../ui/TestimonialCard"
-import { Navigation } from "../ui/Navigation"
-import { testimonials } from "components/app/lib/data"
+import { Heading } from "@/common/Heading"
+import { Typography } from "@/common/Typography"
+import { TestimonialCard } from "@/home/ui/TestimonialCard"
+import { Navigation } from "@/home/ui/Navigation"
+import { testimonials } from "../../../lib/data"
 import { useState } from "react"
 import { motion } from "motion/react"
 

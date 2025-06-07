@@ -1,7 +1,7 @@
-import { Heading } from "../../common/Heading"
-import { Typography } from "../../common/Typography"
-import { ServiceCard } from "../ui/ServiceCard"
-import { services } from "components/app/lib/data"
+import { Heading } from "@/common/Heading"
+import { Typography } from "@/common/Typography"
+import { ServiceCard } from "@/home/ui/ServiceCard"
+import { services } from "../../../lib/data"
 
 export const ServiceSection = () => {
     return (

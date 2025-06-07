@@ -1,5 +1,5 @@
-import { Typography } from "../../common/Typography"
-import { Button } from "../../common/Button"
+import { Typography } from "@/common/Typography"
+import { Button } from "@/common/Button"
 import Image from "next/image"
 
 export const CallToAction = () => {

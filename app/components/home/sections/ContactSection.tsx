@@ -1,8 +1,8 @@
 "use client"
 
-import { ContactForm } from "../ui/ContactForm";
-import { Heading } from "../../common/Heading";
-import { Typography } from "../../common/Typography";
+import { ContactForm } from "@/home/ui/ContactForm";
+import { Heading } from "@/common/Heading";
+import { Typography } from "@/common/Typography";
 import Image from "next/image";
 
 export const ContactSection = () => {
