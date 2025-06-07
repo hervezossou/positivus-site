@@ -1,9 +1,9 @@
-import { PostAuthorCard } from "../ui/PostAuthorCard"
-import { FontSizePicker } from "../ui/FontSizePicker"
+import { PostAuthorCard } from "@/blog/ui/PostAuthorCard"
+import { FontSizePicker } from "@/blog/ui/FontSizePicker"
 
 export const ArticleHeading = () => {
     return (
-        <div className="sticky top-24 backdrop-blur-xs bg-white/40 space-y-8">
+        <div className="space-y-8">
             <div className="flex items-center justify-between gap-auto px-4">
                 <PostAuthorCard />
                 <FontSizePicker />

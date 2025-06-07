@@ -1,5 +1,5 @@
 import { FontSize } from "../../../lib/utils/types"
-import { useFontSizeStore } from "components/app/lib/stores/useFontSizeStore";
+import { useFontSizeStore } from "../../../lib/stores/useFontSizeStore";
 
 interface SizeObject {
     label: string;

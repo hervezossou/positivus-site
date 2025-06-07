@@ -1,6 +1,6 @@
 import clsx from "clsx";
-import { paragraphSize } from "components/app/lib/utils/fontsize"
-import { useFontSizeStore } from "components/app/lib/stores/useFontSizeStore"
+import { paragraphSize } from "../../../lib/utils/fontsize"
+import { useFontSizeStore } from "../../../lib/stores/useFontSizeStore"
 import { ReactNode } from "react";
 
 interface ArticleParagraphProps {

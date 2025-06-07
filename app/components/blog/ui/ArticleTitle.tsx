@@ -1,6 +1,6 @@
 import clsx from "clsx";
-import { titleSize } from "components/app/lib/utils/fontsize"
-import { useFontSizeStore } from "components/app/lib/stores/useFontSizeStore"
+import { titleSize } from "../../../lib/utils/fontsize"
+import { useFontSizeStore } from "../../../lib/stores/useFontSizeStore"
 import { ReactNode } from "react";
 
 export const ArticleTitle = ({ children } : { children : ReactNode}) => {

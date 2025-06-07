@@ -1,9 +1,9 @@
 import clsx from "clsx";
-import { useFontSizeStore } from "components/app/lib/stores/useFontSizeStore";
+import { useFontSizeStore } from "../../../lib/stores/useFontSizeStore";
 import { hightlightSize } from "../../../lib/utils/fontsize";
 import { ArticleParagraph } from "../ui/ArticleParagraph";
-import { ArticleTitle } from "../ui/ArticleTitle";
-import { ArticleList } from "../ui/ArticleList";
+import { ArticleTitle } from "@/blog/ui/ArticleTitle";
+import { ArticleList } from "@/blog/ui/ArticleList";
 
 export const ArticleText = () => {
     const { size } = useFontSizeStore();
