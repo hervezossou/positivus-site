@@ -1,8 +1,8 @@
 "use client"
 
-import { Heading } from "../../common/Heading"
-import { frequentlyAskedQuestions } from "components/app/lib/data"
-import { DisclosureItem } from "../ui/DisclosureItem"
+import { Heading } from "@/common/Heading"
+import { frequentlyAskedQuestions } from "../../../lib/data"
+import { DisclosureItem } from "@/pricing/ui/DisclosureItem"
 import { useState } from "react"
 
 export const FrequentQuestions = () => {

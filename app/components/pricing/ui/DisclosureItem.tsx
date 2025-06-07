@@ -1,7 +1,7 @@
 "use client"
 
 import Image from "next/image";
-import { Typography } from "../../common/Typography";
+import { Typography } from "@/common/Typography";
 import { motion, AnimatePresence } from "motion/react";
 
 interface AccordeonItemProps {

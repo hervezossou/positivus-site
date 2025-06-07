@@ -1,6 +1,6 @@
-import { Typography } from "../../common/Typography"
-import { PricingCard } from "../ui/PricingCard"
-import { pricingCardData } from "components/app/lib/data"
+import { Typography } from "@/common/Typography"
+import { PricingCard } from "@/pricing/ui/PricingCard"
+import { pricingCardData } from "../../../lib/data"
 
 export const PricingSection = () => {
     return (

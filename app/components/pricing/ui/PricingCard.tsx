@@ -1,6 +1,6 @@
 import clsx from "clsx";
-import { Button } from "../../common/Button";
-import { AdavantageItem } from "./AdvantageItem";
+import { Button } from "@/common/Button";
+import { AdavantageItem } from "@/pricing/ui/AdvantageItem";
 
 type Variant = "light" | "dark"
 
