@@ -85,7 +85,7 @@ export const ArticleText = () => {
                             but generates <strong className={clsx(titleSize[size], "pl-4")}>3x as many leads</strong>
                         </ArticleParagraph>
                     </div>
-                    <div className="w-full h-48 p-12 bg-dark rounded-3xl lg:basis-xl lg:p-4 xl:basis-3xl xl:p-12">
+                    <div className="w-full h-48 p-12 bg-dark rounded-3xl lg:basis-xl lg:p-4 xl:basis-3xl xl:p-12 xl:space-y-1">
                         <ArticleParagraph className="text-gray-100">
                             Organic search drives
                         </ArticleParagraph>
