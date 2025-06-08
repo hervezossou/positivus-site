@@ -54,8 +54,8 @@ export const ArticleText = () => {
                     By the Numbers: Facts About PPC and Organic Marketing
                 </ArticleTitle>   
             </div>
-            <div className="w-full flex flex-col space-y-4 mt-16 mb-20">
-                <div className="w-full flex flex-col items-center justify-center gap-4 lg:flex-row">
+            <div className="w-full flex flex-col space-y-8 mt-16 mb-20">
+                <div className="w-full flex flex-col items-center justify-center gap-8 lg:flex-row">
                     <div className="w-full h-48 p-12 space-y-1 bg-white rounded-3xl border [filter:drop-shadow(0px_5px_0px_#191A23)] lg:basis-xl lg:p-8 xl:basis-3xl xl:p-12">
                         <ArticleParagraph>
                             Business earns an average of
@@ -76,7 +76,7 @@ export const ArticleText = () => {
                         </ArticleParagraph>
                     </div>
                 </div>
-                <div className="w-full flex flex-col items-center justify-center gap-4 lg:flex-row">
+                <div className="w-full flex flex-col items-center justify-center gap-8 lg:flex-row">
                     <div className="w-full h-48 p-12 space-y-1 bg-cloud rounded-3xl">
                         <ArticleParagraph>
                             Content marketing oosts <strong className={clsx(titleSize[size], "pl-4")}>62% less than paid ads</strong>
