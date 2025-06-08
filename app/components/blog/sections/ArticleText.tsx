@@ -56,7 +56,7 @@ export const ArticleText = () => {
             </div>
             <div className="w-full flex flex-col space-y-4 mt-16 mb-20">
                 <div className="w-full flex flex-col items-center justify-center gap-4 lg:flex-row">
-                    <div className="w-full h-48 p-12 space-y-1 bg-white rounded-3xl border [filter:drop-shadow(0px_5px_0px_#191A23)] lg:basis-xl xl:basis-3xl">
+                    <div className="w-full h-48 p-12 space-y-1 bg-white rounded-3xl border [filter:drop-shadow(0px_5px_0px_#191A23)] lg:basis-xl lg:p-8 xl:basis-3xl xl:p-12">
                         <ArticleParagraph>
                             Business earns an average of
                         </ArticleParagraph>
@@ -85,7 +85,7 @@ export const ArticleText = () => {
                             but generates <strong className={clsx(titleSize[size], "pl-4")}>3x as many leads</strong>
                         </ArticleParagraph>
                     </div>
-                    <div className="w-full h-48 p-12 space-y-1 bg-dark rounded-3xl lg:basis-xl xl:basis-3xl">
+                    <div className="w-full h-48 p-12 bg-dark rounded-3xl lg:basis-xl lg:p-4 xl:basis-3xl xl:p-12">
                         <ArticleParagraph className="text-gray-100">
                             Organic search drives
                         </ArticleParagraph>
