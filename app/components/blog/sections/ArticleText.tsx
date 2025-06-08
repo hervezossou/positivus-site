@@ -1,6 +1,6 @@
 import clsx from "clsx";
 import { useFontSizeStore } from "../../../lib/stores/useFontSizeStore";
-import { hightlightSize } from "../../../lib/utils/fontsize";
+import { hightlightSize, titleSize } from "../../../lib/utils/fontsize";
 import { ArticleParagraph } from "../ui/ArticleParagraph";
 import { ArticleTitle } from "@/blog/ui/ArticleTitle";
 import { ArticleList } from "@/blog/ui/ArticleList";
@@ -9,11 +9,11 @@ export const ArticleText = () => {
     const { size } = useFontSizeStore();
 
     return (
-        <section className="w-full lg:px-24 xl:px-64 space-y-6 text-justify">
-            <ArticleParagraph className="font-medium">
+        <section className="w-full space-y-6 text-justify">
+            <ArticleParagraph className="font-medium lg:px-24 xl:px-64">
                 In the ever-evolving digital landscape, businesses are faced with an important question : should they invest in pay-per-click (PPC) advertising or focus on organic marketing strategies? While both approaches have their merits, choosing the right one depend on your goals, and timeline. Let&apos;s dive into the stregths, challenges, and real-world applications of PPC and organic marketing to help you make an informed decision.
             </ArticleParagraph>
-            <article className="space-y-5">
+            <article className="space-y-5 lg:px-24 xl:px-64">
                 <ArticleTitle>
                     The Challenge of Standing Out Online
                 </ArticleTitle>
@@ -24,7 +24,7 @@ export const ArticleText = () => {
                     For small businesses with limited resources, this dilemma can feel like an impossible balancing act. Do you play the long game with organic strategies or opt for quick wins with PPC?
                 </ArticleParagraph>
             </article>
-            <article className="space-y-5">
+            <article className="space-y-5 lg:px-24 xl:px-64">
                 <ArticleTitle>
                     Comparing PPC and Organic Marketing
                 </ArticleTitle>
@@ -35,7 +35,7 @@ export const ArticleText = () => {
                     In constrast, organic marketing fucused on building a strong, sustainable presence through strategies like search engine optimization (SEO) and content creation. This approache builds trust and credibility over time, delivering consistent traffic without the need for ongoing ad spend. While the results can take longer to materialize and are less immediate than PPC, organic marketing provides long-term benefits that make valuable strategy for sustainable growth.
                 </ArticleParagraph>
             </article>
-            <article className="space-y-5">
+            <article className="space-y-5 lg:px-24 xl:px-64">
                 <ArticleTitle>
                     Striking the Right Balance
                 </ArticleTitle>
@@ -49,7 +49,56 @@ export const ArticleText = () => {
                     For small business with limited resources, this dilemma can feel like an impossible balancing act. Do you play the long game with organic strategues or opt for quick wins with PPC?
                 </ArticleParagraph>
             </article>
-            <article className="space-y-5">
+            <div className="lg:px-24 xl:px-64">
+                <ArticleTitle>
+                    By the Numbers: Facts About PPC and Organic Marketing
+                </ArticleTitle>   
+            </div>
+            <div className="w-full flex flex-col space-y-4 mt-16 mb-20">
+                <div className="w-full flex flex-col items-center justify-center gap-4 lg:flex-row">
+                    <div className="w-full h-48 p-12 space-y-1 bg-white rounded-3xl border [filter:drop-shadow(0px_5px_0px_#191A23)] lg:basis-xl xl:basis-3xl">
+                        <ArticleParagraph>
+                            Business earns an average of
+                        </ArticleParagraph>
+                        <ArticleTitle>
+                            $2 for every $1 spent
+                        </ArticleTitle>
+                        <ArticleParagraph>
+                            on PPC advertising.
+                        </ArticleParagraph>
+                    </div>
+                    <div className="w-full h-48 p-12 space-y-1 bg-lime rounded-3xl">
+                        <ArticleTitle>
+                            41% of clicks
+                        </ArticleTitle>
+                        <ArticleParagraph>
+                            on search engines go to the top three organic results, showing the importance of ranking highly.
+                        </ArticleParagraph>
+                    </div>
+                </div>
+                <div className="w-full flex flex-col items-center justify-center gap-4 lg:flex-row">
+                    <div className="w-full h-48 p-12 space-y-1 bg-cloud rounded-3xl">
+                        <ArticleParagraph>
+                            Content marketing oosts <strong className={clsx(titleSize[size], "pl-4")}>62% less than paid ads</strong>
+                        </ArticleParagraph>
+                        <ArticleParagraph>
+                            but generates <strong className={clsx(titleSize[size], "pl-4")}>3x as many leads</strong>
+                        </ArticleParagraph>
+                    </div>
+                    <div className="w-full h-48 p-12 space-y-1 bg-dark rounded-3xl lg:basis-xl xl:basis-3xl">
+                        <ArticleParagraph className="text-gray-100">
+                            Organic search drives
+                        </ArticleParagraph>
+                        <ArticleTitle className="text-white">
+                            <span className="text-lime">53%</span> of all website traffic,
+                        </ArticleTitle>
+                        <ArticleParagraph className="text-gray-100">
+                            making it the largest single source of traffic.
+                        </ArticleParagraph>
+                    </div>
+                </div>
+            </div>
+            <article className="space-y-5 lg:px-24 xl:px-64">
                 <ArticleTitle>
                     Real-World Examples
                 </ArticleTitle>
@@ -57,7 +106,7 @@ export const ArticleText = () => {
                     PPC and organic marketing have proven effective in different scenarios, and real-world examples highlight their impact. A local restaurant, for instance, leveraged Google Ads to target the search term &quot;best italian food near me&quot;, which led to a remarkable 120% increase in reservations within just two weeks. Similarly, a B2B SaaS company focused on organic marketing by investing in SEO and blog content. This strategic approach helped them rank for competitive keywords and boosted their website traffic by 200% over sice months. Some businesses find success by combining both strategies, like an e-commerce retailer that launched a targeted PPC campaign for seasonal sales while simultaneously optimizing product pages for organic search. This hybrid approach resulted in a 30% higher return on investment compared to relying solely on PPC advertising.
                 </ArticleParagraph>
             </article>
-            <article className="space-y-5">
+            <article className="space-y-5 lg:px-24 xl:px-64">
                 <ArticleTitle>
                     Key Takeaways for Your Marketing Strategy
                 </ArticleTitle>
@@ -73,7 +122,7 @@ export const ArticleText = () => {
                     </li>
                 </ArticleList>
             </article>
-            <article className="space-y-5">
+            <article className="space-y-5 lg:px-24 xl:px-64">
                 <ArticleTitle>
                     Choosing the Best Strategy for Your Business
                 </ArticleTitle>
