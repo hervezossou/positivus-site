@@ -1,3 +1,5 @@
+"use client"
+
 import { Typography } from "@/common/Typography"
 import { Button } from "@/common/Button"
 import Image from "next/image"
