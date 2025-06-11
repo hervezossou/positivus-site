@@ -20,7 +20,7 @@ export const TestimonialSection = () => {
     };
 
     return (
-        <section className="flex flex-col gap-y-10 py-4 lg:py-10">
+        <section className="flex flex-col gap-y-10 py-4 lg:py-10 lg:gap-y-20">
             <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:justify-start md:gap-10">
                 <Heading variant="lime" label="Testimonials" />
                 <Typography variant="p" className="w-auto text-center md:w-[473px] md:text-left">
