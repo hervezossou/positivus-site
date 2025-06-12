@@ -6,7 +6,7 @@ import Image from "next/image"
 
 export const CallToAction = () => {
     return (
-        <section className="py-4 lg:py-10">
+        <section className="py-4 lg:py-10 lg:my-12">
             <div className="bg-cloud h-[347px] rounded-45 flex items-center justify-between gap-[275px] px-15">
                 <div className="flex flex-col max-w-[500px] gap-[26px]">
                     <Typography variant="h3">
