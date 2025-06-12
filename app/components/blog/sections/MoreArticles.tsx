@@ -17,7 +17,7 @@ export const MoreArticles = () => {
                 </div> : 
                     <Heading variant="lime" label="EXplore More Insights" />
                 }
-                <Typography variant="p" className="text-center lg:text-left">
+                <Typography variant="p" className="text-center px-8 lg:text-left">
                     Discover the expert tips, strategies, and stories to keep you ahead in the digital landscape.
                 </Typography>
             </div>
