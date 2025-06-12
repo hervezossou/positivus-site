@@ -318,3 +318,22 @@ export const moreInsights = [
         description: "Artificial Intelligence is transforming the way we target, analyze, and engage audiences. Discover how to leverage AI to stay competitive.",
     },
 ]
+
+export const featuredStory = [
+    {
+        title: "200%",
+        description: "increase in organic traffic"
+    },
+    {
+        title: "150%",
+        description: "rise in online sales"
+    },
+    {
+        title: "75%",
+        description: "reduction in cost-per-click (CPC)"
+    },
+    {
+        title: "300%",
+        description: "improvement in conversion rate"
+    }
+]
