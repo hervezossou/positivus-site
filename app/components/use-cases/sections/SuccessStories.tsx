@@ -1,11 +1,19 @@
+"use client"
+
 import { Heading } from "@/common/Heading"
 import { Typography } from "@/common/Typography"
 import { ArticleCard } from "@/blog/ui/ArticleCard"
 import { successStories } from "../../../lib/data"
 import { useMediaQuery } from "../../../lib/utils/hooks"
+import { useState, useEffect } from "react"
 
 export const SuccessStories = () => {
     const isDesktop = useMediaQuery("(min-width: 1440px)");
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+        setMounted(true);
+    }, []);
 
     return (
         <section className="flex flex-col items-center justify-between gap-12 pt-16 pb-12 lg:items-start">
@@ -21,7 +29,7 @@ export const SuccessStories = () => {
                         key={`${story.title}-${index}`}
                         title={story.title} 
                         description={story.description} 
-                        variant={`${isDesktop ? "outlined" : "contained"}`} 
+                        variant={mounted && isDesktop ? "outlined" : "contained"} 
                         className={`
                             xl:px-0 xl:py-0 xl:border-0 border-gray-500
                             ${index % 3 !== 2 ? "xl:border-r" : ""}    // column 1 et 2 : border right
