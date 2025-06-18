@@ -1,6 +1,6 @@
 import clsx from "clsx";
 
-type Variant = "contained" | "outlined" | "positive";
+type Variant = "contained" | "outlined" | "positive" | "light";
 
 interface ButtonProps {
     variant: Variant;
@@ -14,6 +14,7 @@ const variantStyle: Record<Variant, string> = {
     contained: "bg-dark w-auto text-white hover:scale-105 ease-in-out duration-200",
     outlined: "bg-transparent text-black border-1 hover:bg-lime hover:text-black hover:border-none ease-in-out duration-200",
     positive: "w-full bg-lime text-black hover:scale-105 ease-in-out duration-200",
+    light: "bg-white w-full text-black hover:scale-105 ease-in-out duration-200"
 }
 
 export const Button = ({variant = "contained", label, className, onClick}: ButtonProps) => {
