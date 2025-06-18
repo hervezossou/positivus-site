@@ -22,7 +22,7 @@ export const HeroSection = () => {
                         Expert Digital Marketing Services
                     </Typography>
                     <Typography variant="p" className="text-justify max-w-lg lg:max-w-md">
-                        Unlock your business's full potential with tailored strategies designed to drive growth and deliver results.
+                        Unlock your business&apos;s full potential with tailored strategies designed to drive growth and deliver results.
                     </Typography>
                 </div>
             </div>

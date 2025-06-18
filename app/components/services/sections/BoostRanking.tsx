@@ -18,7 +18,7 @@ export const BoostRanking = () => {
                 </div>
                 <div className="flex flex-col items-start justify-between gap-12">
                     <Typography variant="p" className="text-gray-300">
-                        SEO is the process of improving your website's visibility on search engines like Google. By optimizing your content and site structure. We help your business rank higher in search results, driving more organic traffic and potential customers.
+                        SEO is the process of improving your website&apos;s visibility on search engines like Google. By optimizing your content and site structure. We help your business rank higher in search results, driving more organic traffic and potential customers.
                     </Typography>
                     <Button 
                         variant="light" 
