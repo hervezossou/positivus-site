@@ -12,10 +12,10 @@ export const SearchRanking = () => {
                     </Typography>
                     <div className="bg-black w-full h-0.5"></div>
                     <Typography variant="p">
-                        Our proven SEO strategies  are designed to help  your business achieve long-lasting success in search engines. Whether  you want to boost organic traffic, improve keyword rankings, or increase conversion rate, we're here to make it  happen.
+                        Our proven SEO strategies  are designed to help  your business achieve long-lasting success in search engines. Whether  you want to boost organic traffic, improve keyword rankings, or increase conversion rate, we&apos;re here to make it  happen.
                     </Typography>
                     <Typography variant="h4">
-                        Let's work together to grow your online presence.
+                        Let&apos;s work together to grow your online presence.
                     </Typography>
                     <Button 
                         variant="positive" 
