@@ -412,3 +412,42 @@ export const useCasesData = [
         description: "Through content optimization and targeted keyword strategy, we helped a healthcare provider rank on the first page for critical services, resulting in a 180% increase in inquiries and patient bookings."
     }
 ]
+
+export const servicesData = [
+    {
+        title: "Pay-per-click",
+        subtitle: "advertising",
+        image: "/images/tokyo-selecting.png",
+        label: "Learn more",
+    },
+    {
+        title: "Social Media",
+        subtitle: "Marketing",
+        image: "/images/tokyo-browser.png",
+        label: "Learn more",
+    },
+    {
+        title: "Email",
+        subtitle: "Marketing",
+        image: "/images/tokyo-sending-messages.png",
+        label: "Learn more",
+    },
+    {
+        title: "Content",
+        subtitle: "Creation",
+        image: "/images/tokyo-many-browser.png",
+        label: "Learn more",
+    },
+    {
+        title: "Analytics and",
+        subtitle: "Tracking",
+        image: "/images/tokyo-volumetric-analytics.png",
+        label: "Learn more",
+    },
+    {
+        title: "Search Engine",
+        subtitle: "Optimization",
+        image: "/images/tokyo-magnifier-web.png",
+        label: "Learn more",
+    }
+]

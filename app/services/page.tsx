@@ -2,6 +2,7 @@ import { HeroSection } from "@/services/sections/HeroSection"
 import { BoostRanking } from "@/services/sections/BoostRanking"
 import { WorkProcess } from "@/services/sections/WorkProcess"
 import { UseCaseSection } from "@/services/sections/UseCaseSection"
+import { ServiceSection } from "@/services/sections/ServiceSection"
 
 export default function Page() {
     return (
@@ -10,6 +11,7 @@ export default function Page() {
             <BoostRanking />
             <WorkProcess />
             <UseCaseSection />
+            <ServiceSection />
         </>
     )
 }
