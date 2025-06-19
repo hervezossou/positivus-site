@@ -2,8 +2,6 @@ import clsx from "clsx";
 import { Typography } from "@/common/Typography"
 import { TextLink } from "@/common/TextLink"
 
-type Variant = "mobile" | "desktop"
-
 interface UseCaseCardProps {
     title: string;
     description: string;

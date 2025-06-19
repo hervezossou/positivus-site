@@ -5,7 +5,6 @@ import { UseCaseCard } from "../ui/UseCaseCard"
 import { Heading } from "@/common/Heading"
 import { Typography } from "@/common/Typography"
 import { useCasesData } from "../../../lib/data"
-import { useEffect, useState } from "react"
 
 export const UseCaseSection = () => {
     const isDesktop = useMediaQuery("(min-width: 1280px)");
