@@ -451,3 +451,31 @@ export const servicesData = [
         label: "Learn more",
     }
 ]
+
+export const impactStats = [
+    {
+        value: 8,
+        label: "Years of Experience",
+
+    },
+    {
+        value: 50,
+        label: "Experts",
+
+    },
+    {
+        value: 100,
+        label: "Successful campaigns",
+
+    },
+    {
+        value: 20,
+        label: "Industry Awards",
+
+    },
+    {
+        value: 500,
+        label: "ROI of our clients",
+
+    },
+]
