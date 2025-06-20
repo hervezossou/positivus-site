@@ -39,7 +39,7 @@ export const NumberTicker = ({
     };
 
     requestAnimationFrame(step);
-  }, [value, duration]);
+  }, [value, duration, displayValue]);
 
   return (
     <span className={clsx("text-3xl font-bold", className)}>
