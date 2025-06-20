@@ -479,3 +479,26 @@ export const impactStats = [
 
     },
 ]
+
+export const coreValues = [
+    {
+        title: "Client Success First",
+        description: "We are dedicated to achieving measurable results for our clients. Each strategy is tailored to meet unique business goals and drive long-term success",
+        srcImage: "",
+    },
+    {
+        title: "Innovation",
+        description: "We constantly strive to stay ahead of industry trends.",
+        srcImage: "/images/home-hero.png",
+    },
+    {
+        title: "Collaboration",
+        description: "Open and honest communication is key to our success. We keep our informed every step of the way to ensure trust and clarity.",
+        srcImage: "/images/home-hero.png",
+    },
+    {
+        title: "Transparency",
+        description: "Open and honest communication is key to our success. We keep our informed every step of the way to ensure trust and clarity.",
+        srcImage: "",
+    },
+]
