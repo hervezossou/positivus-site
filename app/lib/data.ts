@@ -502,3 +502,26 @@ export const coreValues = [
         srcImage: "",
     },
 ]
+
+export const awards = [
+    {
+        imageUrl: "/icons/star-icon.svg",
+        awardTitle: "Best Small Business  Digital Marketing Agency of the Year",
+        awardDescription: "Celebrating our success in delivering innovative  strategies and measurable results for small business clients."
+    },
+    {
+        imageUrl: "/icons/star-icon.svg",
+        awardTitle: "Innovative Website Design",
+        awardDescription: "Honorung our expertise in developing visually stunning, user-friendly websites that capture a brand's essence and boost conversions."
+    },
+    {
+        imageUrl: "/icons/star-icon.svg",
+        awardTitle: "Top Performing PPC Campaign of the Year",
+        awardDescription: "Acknowledging our ability to design and execute a high-impact pay-per-click campaign that drove exceptional client results."
+    },
+    {
+        imageUrl: "/icons/star-icon.svg",
+        awardTitle: "Expertise in Social Media Marketing",
+        awardDescription: "Recognizing our exceptional skills in crafting strategies, managing accounts, and creating engaging content."
+    }
+]
