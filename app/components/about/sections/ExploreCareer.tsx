@@ -13,7 +13,7 @@ export const ExploreCareer = () => {
                         Join Our Team
                     </Typography>
                     <Typography variant="p">
-                        At Positivus, we thrive on innnovation and collaboration. We're always looking  for passionate individuals to join our team and help  businesses grow. Ready to make an impact ?
+                        At Positivus, we thrive on innnovation and collaboration. We&apos;re always looking  for passionate individuals to join our team and help  businesses grow. Ready to make an impact ?
                     </Typography>
                     <Button 
                         variant="contained" 
