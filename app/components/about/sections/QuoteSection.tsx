@@ -15,7 +15,7 @@ export const QuoteSection = () => {
                 </div>
                 <div className="space-y-4 w- lg:space-y-8 lg:max-w-xl lg:pr-10">
                     <Typography variant="h2" className="text-white leading-12">
-                        "At Positivus, we believe  that  success is built on innovation, collaboration, and a relentless focus on delivering results."
+                        &quot;At Positivus, we believe  that  success is built on innovation, collaboration, and a relentless focus on delivering results.&quot;
                     </Typography>
                     <Typography variant="p" className="text-gray-300">
                         - John Smith, Founder of Positivus
