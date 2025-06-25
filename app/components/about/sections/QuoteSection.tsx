@@ -4,7 +4,7 @@ import { Typography } from "@/common/Typography"
 export const QuoteSection = () => {
     return (
         <section className="py-4 lg:py-10">
-            <div className="flex items-center justify-between gap-4 p-5 bg-dark border rounded-4xl [filter:drop-shadow(0px_5px_0px_#000000)] lg:gap-10 lg:px-10 lg:py-8">
+            <div className="flex flex-col items-center justify-between gap-4 p-5 bg-dark border rounded-4xl [filter:drop-shadow(0px_5px_0px_#000000)] lg:flex-row lg:gap-10 lg:px-10 lg:py-8">
                 <div className="flex items-center justify-between lg:w-1/2">
                     <Image 
                         src="/images/quote_illustration.png" 
