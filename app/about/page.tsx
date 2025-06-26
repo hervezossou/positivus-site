@@ -1,5 +1,6 @@
 import { AboutHeroSection } from "@/about/sections/AboutHeroSection"
 import { ImpactNumbersSection } from "@/about/sections/ImpactNumbersSection"
+import { JourneySection } from "@/about/sections/JourneySection"
 import { CoreValueSection } from "@/about/sections/CoreValueSection"
 import { AwardSection } from "@/about/sections/AwardSection"
 import { ExploreCareer } from "@/about/sections/ExploreCareer"
@@ -10,6 +11,7 @@ export default function Page() {
         <>
             <AboutHeroSection />
             <ImpactNumbersSection />
+            <JourneySection />
             <CoreValueSection />
             <QuoteSection />
             <AwardSection />
