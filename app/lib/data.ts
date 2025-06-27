@@ -526,20 +526,24 @@ export const awards = [
     }
 ]
 
-export const positivusJourney = [
+export const journeyTimeline = [
     {
+        year: "2019",
         title: "The Beginning",
         description: "Positivus was founded to help businesses navigate the digital world and achieve online sucess."
     },
     {
+        year: "2021",
         title: "Industry Recognition",
         description: "Position was named among the top 50 global digital agencies, affirming our leadership."
     },
     {
+        year: "2023",
         title: "Innovation and Growth",
         description: "With over 50 experts, we continue to deliver cutting-edge solutions to help businesses thrive."
     },
     {
+        year: "2024",
         title: "Leading the Future",
         description: "This year, Positivus is pioneering the use of AI and automation to deliver even more personalized, data-driven strategies and setting new standards in digital marketing."
     }
