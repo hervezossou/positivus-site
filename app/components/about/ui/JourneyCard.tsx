@@ -4,11 +4,12 @@ import { Typography } from "@/common/Typography";
 interface JourneyCardProps {
     title: string;
     description: string;
+    className: string
 }
 
-export const JourneyCard = ({ title, description }: JourneyCardProps) => {
+export const JourneyCard = ({ title, description, className }: JourneyCardProps) => {
     return (
-        <div className="max-h-64 w-lg flex items-start justify-start gap-8 bg-dark rounded-4xl p-8 lg:w-2xl lg:px-12 lg:gap-12">
+        <div className={`w-full relative md:w-5/12 max-h-64 flex items-start justify-start gap-8 bg-dark rounded-4xl p-8 lg:w-2xl lg:px-12 lg:gap-12 ${className}`}>
             <div className="flex items-center justify-center aspect-square">
                 <Image 
                     src="/icons/green-star.png" 
