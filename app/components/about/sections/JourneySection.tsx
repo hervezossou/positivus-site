@@ -1,6 +1,6 @@
 import { Heading } from "@/common/Heading"
 import { Typography } from "@/common/Typography"
-import { positivusJourney } from "../../../lib/data"
+import { journeyTimeline } from "../../../lib/data"
 import { JourneyCard } from "../ui/JourneyCard"
 
 export const JourneySection = () => {
@@ -13,14 +13,44 @@ export const JourneySection = () => {
                         From humble begginnings to industry leaders, discover how Positivus has evolved to drive success for businesses wordwide.
                     </Typography>
                 </div>
-                <div className={`grid grid-cols-1 mx-auto gap-8 lg:grid-cols-2`}>
-                    {positivusJourney.map((item, index) => (
-                        <JourneyCard 
-                            key={index}
-                            title={item.title} 
-                            description={item.description} 
-                        />
-                    ))}
+                <div className="w-full">
+                    <div className="relative max-w-6xl mx-auto">
+                        {/* Central Timeline Line */}
+                        <div className="absolute inset-0 flex justify-center">
+                            <div className="w-1 bg-lime hidden md:block"></div>
+                        </div>
+
+                        {/* Timeline Items */}
+                        <div className="space-y-8 md:space-y-12">
+                            {journeyTimeline.map((item, index) => (
+                                <div
+                                    key={index}
+                                    className={`relative flex flex-col md:flex-row ${index % 2 === 0 ? "md:justify-start" : "md:justify-end"} items-center md:items-start`}
+                                >
+
+                                    {/* Timeline Dot */}
+                                    <div className="absolute left-1/2 transform -translate-x-1/2 md:block hidden">
+                                        <div className="w-4 h-4 bg-lime rounded-full"></div>
+                                    </div>
+
+                                    {/* Card */}
+                                    <div className="flex flex-col items-start gap-6 lg:flex-row">
+                                        <div className="flex items-center gap-4">
+                                            <div className="w-3 h-3 bg-lime rounded-full"></div>
+                                            <Typography variant="h2" className="my-0 lg:my-12">
+                                                {item.year}
+                                            </Typography>
+                                        </div>
+                                        <JourneyCard
+                                            title={item.title}
+                                            description={item.description}
+                                            className={`${index % 2 === 0 ? "md:mr-auto" : "md:ml-auto"}`}
+                                        />
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
