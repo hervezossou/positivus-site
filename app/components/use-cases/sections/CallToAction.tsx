@@ -23,7 +23,7 @@ export const CallToAction = () => {
                 </div>
                 <div className="lg:flex items-center justify-center hidden">
                     <Image 
-                        src="/images/illustration.png" 
+                        src="/images/Illustration.png" 
                         width={359} 
                         height={394.27} 
                         className="object-cover h-auto mr-[135px] scale-140" 
