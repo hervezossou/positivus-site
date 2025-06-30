@@ -6,7 +6,7 @@ import { CoreValueCard } from "../ui/CoreValueCard"
 export const CoreValueSection = () => {
     return (
         <section className="py-4 space-y-8 lg:py-10 lg:space-y-16">
-            <div className="w-full flex flex-col items-center justify-between gap-8 max-w-xl xl:flex-row xl:items-start xl:gap-12">
+            <div className="w-full mx-auto flex flex-col items-center justify-between gap-8 max-w-xl lg:mx-0 lg:items-start lg:flex-row lg:gap-12">
                 <Heading variant="lime" label="Core Value" />
                 <Typography variant="p">
                     At the heart of everything we do are our core values:
