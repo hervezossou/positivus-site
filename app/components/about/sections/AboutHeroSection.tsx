@@ -20,7 +20,7 @@ export const AboutHeroSection = () => {
                     <Typography variant="h1" className="hidden lg:block lg:max-w-lg lg:leading-16">
                         Together for Success
                     </Typography>
-                    <Typography variant="p" className="text-justify mx-auto max-w-lg lg:max-w-md">
+                    <Typography variant="p" className="text-justify mx-auto max-w-lg lg:mx-0 lg:max-w-md">
                         At Positivus, we help businesses grow by combining creativity, innovation,, and data-driven strategies. Together, we build a future  of shared  success.
                     </Typography>
                 </div>
