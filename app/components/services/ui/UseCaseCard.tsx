@@ -9,7 +9,7 @@ interface UseCaseCardProps {
     className?: string
 }
 
-const baseStyle = "w-96 h-72 bg-black rounded-4xl p-8 flex shrink-0 flex-col items-start justify-between gap-6 px-10 xl:h-[316px] xl:pl-2 xl:pr-8 xl:py-0 xl:bg-transparent"
+const baseStyle = "w-96 h-auto bg-black rounded-4xl p-8 flex shrink-0 flex-col items-start justify-between gap-6 px-10 xl:h-[316px] xl:pl-2 xl:pr-8 xl:py-0 xl:bg-transparent"
 
 export const UseCaseCard = ({ title, description, goTo, className } : UseCaseCardProps) => {
     return (

@@ -12,7 +12,7 @@ export const UseCaseSection = () => {
     return (
         <section className="py-4 lg:py-10">
             <div className="flex flex-col items-start justify-between gap-8 xl:gap-12">
-                <div className="flex flex-col items-center justify-center gap-6 xl:flex-row xl:items-start xl:justify-start xl:gap-10">
+                <div className="mx-auto flex flex-col items-center justify-center gap-6 lg:mx-0 lg:flex-row lg:items-start lg:justify-start lg:gap-10">
                     <Heading variant="lime" label="Use Cases" />
                     <Typography variant="p" className="w-auto text-center md:w-[460px] xl:text-left">
                         Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies
