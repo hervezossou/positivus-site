@@ -4,8 +4,8 @@ import { pricingCardData } from "../../../lib/data"
 
 export const PricingSection = () => {
     return (
-        <section className="flex flex-col gap-y-8 py-4 lg:py-10">
-            <div className="flex flex-col items-start gap-y-4 max-w-md">
+        <section className="flex flex-col gap-y-8 py-4 lg:py-8 lg:gap-12">
+            <div className="flex flex-col items-start gap-y-4 max-w-2xl lg:flex-row lg:items-center lg:gap-10 lg:max-">
                 <Typography variant="h1">
                     Pricing
                 </Typography>
