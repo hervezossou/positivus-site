@@ -30,7 +30,7 @@ export const ImpactNumbersSection = () => {
                         A snapshot of the milestones and achievements that drive our success
                     </Typography>
                 </div>
-                <div className="flex flex-wrap items-center gap-x-0 gap-y-4">
+                <div className="flex flex-wrap items-center justify-center md:gap-x-0 md:my-4 gap-12 lg:justify-start">
                     {impactStats.map((stat, index) => (
                         <ImpactCard 
                             key={stat.label}
