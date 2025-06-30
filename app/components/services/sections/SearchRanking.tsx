@@ -5,7 +5,7 @@ import Image from "next/image"
 export const SearchRanking = () => {
     return (
         <section className="py-4 lg:py-10">
-            <div className="w-full bg-white flex flex-col items-start justify-between gap-6 px-4 py-6 border [filter:drop-shadow(0px_5px_0px_#191A23)] rounded-45 xl:flex-row xl:items-center xl:px-12 xl:py-12">
+            <div className="w-full bg-white flex flex-col items-center justify-between gap-6 px-4 py-6 border [filter:drop-shadow(0px_5px_0px_#191A23)] rounded-45 xl:flex-row xl:items-center xl:px-12 xl:py-12">
                 <div className="flex flex-col items-start justify-between gap-4 xl:w-1/2 xl:gap-10">
                     <Typography variant="h3">
                         Ready To Elevate Your Search Rankings ?

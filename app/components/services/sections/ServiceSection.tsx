@@ -6,7 +6,7 @@ import { servicesData } from "../../../lib/data"
 export const ServiceSection = () => {
     return (
         <section className="flex flex-col py-4 gap-y-14 lg:py-10">
-            <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:justify-start md:gap-10">
+            <div className="flex flex-col items-center justify-center gap-8 lg:flex-row lg:justify-start lg:gap-10">
                 <Heading variant="lime" label="Our Other Services" />
                 <Typography variant="p" className="w-[390px] text-center md:w-[580px] md:text-left">
                     At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:
