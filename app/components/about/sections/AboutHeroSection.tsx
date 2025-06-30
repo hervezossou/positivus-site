@@ -10,7 +10,7 @@ export const AboutHeroSection = () => {
                         Together for Success
                     </Typography>
                     <Image 
-                        src="/images/home-hero.png" 
+                        src="/images/success-together.svg" 
                         width={540} 
                         height={540} 
                         alt="illustration" 

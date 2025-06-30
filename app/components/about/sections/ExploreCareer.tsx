@@ -23,7 +23,7 @@ export const ExploreCareer = () => {
                 </div>
                 <div className="flex items-center justify-center px-10 lg:pr-20">
                     <Image 
-                        src="/images/home-hero.png" 
+                        src="/images/team-checklist-bro.svg" 
                         alt="illustration" 
                         width={624}
                         height={624}
