@@ -25,7 +25,7 @@ export const SearchRanking = () => {
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <Image 
-                        src="/images/home-hero.png"
+                        src="/images/robotics-bro.svg"
                         alt="SEO Search Boost"
                         width={512}
                         height={512}
