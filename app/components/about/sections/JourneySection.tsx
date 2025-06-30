@@ -9,7 +9,7 @@ export const JourneySection = () => {
             <div className="flex flex-col items-start justify-between gap-10 lg:gap-20">
                 <div className="flex flex-col items-center justify-between gap-5 max-w-4xl lg:flex-row lg:gap-10">
                     <Heading variant="lime" label="Our Journey" />
-                    <Typography variant="p">
+                    <Typography variant="p" className="text-center lg:text-justify">
                         From humble begginnings to industry leaders, discover how Positivus has evolved to drive success for businesses wordwide.
                     </Typography>
                 </div>
