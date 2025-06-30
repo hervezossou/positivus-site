@@ -35,7 +35,7 @@ export const JourneySection = () => {
 
                                     {/* Card */}
                                     <div className="flex flex-col items-start gap-6 lg:flex-row">
-                                        <div className="flex items-center gap-4">
+                                        <div className="hidden lg:flex items-center gap-4">
                                             <div className="w-3 h-3 bg-lime rounded-full"></div>
                                             <Typography variant="h2" className="my-0 lg:my-12">
                                                 {item.year}
