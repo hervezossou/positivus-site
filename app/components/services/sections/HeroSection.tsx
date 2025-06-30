@@ -10,7 +10,7 @@ export const HeroSection = () => {
                         Expert Digital Marketing Services
                     </Typography>
                     <Image 
-                        src="/images/home-hero.png" 
+                        src="/images/online-meeting.svg" 
                         width={540} 
                         height={540} 
                         alt="illustration" 
