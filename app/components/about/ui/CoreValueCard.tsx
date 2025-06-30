@@ -9,7 +9,7 @@ interface CoreValueCardProps {
 
 export const CoreValueCard = ({ title, description, srcImage } : CoreValueCardProps) => {
     return (
-        <div className="w-full h-72 bg-white flex items-start justify-between p-8 border gap-8 rounded-4xl [filter:drop-shadow(0px_5px_0px_#191A23)]">
+        <div className="w-full h-full bg-white flex flex-col items-center justify-between p-8 border gap-8 rounded-4xl [filter:drop-shadow(0px_5px_0px_#191A23)] md:h-72 md:flex-row">
             <div className="flex flex-col items-start justify-between gap-8 w-full">
                 <Typography variant="h3">
                     {title}
