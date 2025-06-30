@@ -17,8 +17,8 @@ export const ImpactNumbersSection = () => {
 
     return (
         <section className="py-4 lg:pb-10">
-            <div className="flex flex-col items-start justify-between gap-6 px-4 py-6 lg:gap-16">
-                <div className="flex flex-col items-center justify-center gap-8 md:flex-row md:justify-start md:gap-10">
+            <div className="flex flex-col items-center justify-between gap-6 px-4 py-6 lg:items-start lg:gap-16">
+                <div className="flex flex-col items-center justify-center gap-8 lg:flex-row lg:justify-start lg:gap-10">
                     {mounted && isMobile ? 
                     (<div className="flex flex-col items-center gap-0">
                         <Heading variant="lime" label="Our Impact" />
@@ -26,7 +26,7 @@ export const ImpactNumbersSection = () => {
                     </div>) : (
                         <Heading variant="lime" label="Our Impact in Numbers" />
                     )}
-                    <Typography variant="p" className="w-auto text-center md:w-md md:text-left">
+                    <Typography variant="p" className="w-auto text-center md:w-md lg:text-left">
                         A snapshot of the milestones and achievements that drive our success
                     </Typography>
                 </div>
