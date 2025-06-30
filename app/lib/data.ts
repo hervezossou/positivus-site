@@ -489,12 +489,12 @@ export const coreValues = [
     {
         title: "Innovation",
         description: "We constantly strive to stay ahead of industry trends.",
-        srcImage: "/images/home-hero.png",
+        srcImage: "/images/robotics-bro.svg",
     },
     {
         title: "Collaboration",
         description: "Open and honest communication is key to our success. We keep our informed every step of the way to ensure trust and clarity.",
-        srcImage: "/images/home-hero.png",
+        srcImage: "/images/collaboration-bro.svg",
     },
     {
         title: "Transparency",
